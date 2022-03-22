@@ -1,0 +1,20 @@
+.debug{
+  background-color: rgba(255, 0, 0, 0.3);
+  border: 1px solid black;
+}
+.d-flex{
+  display: flex;
+}
+.clearfix::after{
+  display: table;
+  clear: both;
+}
+.float-left{
+  float: left;
+}
+.h400{
+  height: 400px;
+}
+.h100{
+  height: 100px;
+}
