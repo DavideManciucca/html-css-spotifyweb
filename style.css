@@ -1,12 +1,31 @@
-.d-flex{
+
+.logo{
+  
+  width: 125px;
+}
+
+.toprow{
+  height: 10vh;
+  flex-direction: row-reverse;
+}
+
+.container.d-flex{
   height: 90vh;
 }
 
 .col-sx{
   width: 20vw;
+  padding: 10px;
+  position: relative;
+}
+.bottom-left{
+  position: absolute;
+  bottom: 0;
+  left: 10;
 }
 .main{
   width: 90vw;
+  overflow-y: scroll;
 }
 footer{
   height: 10vh;

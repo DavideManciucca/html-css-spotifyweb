@@ -7,3 +7,15 @@
 ul{
   list-style: none;
 }
+a{
+  text-decoration: none;
+  color: white;
+}
+.second-list ul li{
+  display: inline-block;
+}
+.riga{
+  margin-top: 50px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
