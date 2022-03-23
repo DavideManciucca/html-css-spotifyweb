@@ -4,18 +4,37 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
+.profile{
+  height: 10px;
+  width: 10px;
+}
+h4{
+  color: white;
+}
+
 ul{
   list-style: none;
 }
 a{
   text-decoration: none;
+  color: gray;
+}
+a:hover{
   color: white;
 }
+.sx-list a:hover{
+  border-left: 1px solid greenyellow;
+  margin-left: 5px;
+}
 .second-list ul li{
+  margin-top: 50px;
   display: inline-block;
 }
-.riga{
+.slot{
   margin-top: 50px;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  margin-left: 10px;
+  
+}
+footer{
+  justify-content: space-between;
 }

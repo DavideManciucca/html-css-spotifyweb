@@ -7,6 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />        
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="utils.css">
   <link rel="stylesheet" href="global.css">
@@ -19,29 +20,29 @@
       <div class="logo"><img src="img/logo.svg" alt=""></div>
       <div class="sx-list">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Cerca</a></li>
+          <li><a href="#"><i class="fa-solid fa-house"></i>Home</a></li>
+          <li><a href="#"><i class="fa-regular fa-magnifying-glass"></i> Cerca</a></li>
           <li><a href="#">La tua libreria</a></li>
         </ul>
       </div>
-      <h4>PLAYLIST</h4>
-      <div>Crea la tua playlist</div>
+      <h4 class="title-sx">PLAYLIST</h4>
+      <div> Crea la tua playlist</div>
       <div class="sx-list">
         <ul>
-          <li>Nome Playlist</li>
-          <li>Nome Playlist</li>
-          <li>Nome Playlist</li>
-          <li>Nome Playlist</li>
-          <li>Nome Playlist</li>
-          <li>Nome Playlist</li>
-          <li>Nome Playlist</li>
+          <li><a href="#">Nome Playlist</a></li>
+          <li><a href="#">Nome Playlist</a></li>
+          <li><a href="#">Nome Playlist</a></li>
+          <li><a href="#">Nome Playlist</a></li>
+          <li><a href="#">Nome Playlist</a></li>
+          <li><a href="#">Nome Playlist</a></li>
+          <li><a href="#">Nome Playlist</a></li>
         </ul>
       </div>
       <!-- fine seconda lista -->
       <div class="bottom-left">
         <div class="bottom">Installa app</div>
         <hr class="bottom" width="80%">
-        <div class="bottom">Jhon Doe</div>
+        <div class="bottom"><img class="profile" src="img/profile.svg" alt=""> Jhon Doe</div>
       </div>
     </div>
 
@@ -55,42 +56,81 @@
      <!-- lista -->
      <div class="second-list">
        <ul>
-         <li>prova</li>
-         <li>prova</li>
-         <li>prova</li>
-         <li>prova</li>
+         <li><a href="#">IN EVIDENZA</a> </li>
+         <li><a href="#">PODCAST</a></li>
+         <li><a href="#">CLASSIFICHE</a></li>
+         <li><a href="#">GENERI E MOOD</a></li>
+         <li><a href="#">NUOVE USCITE</a></li>
+         <li><a href="#">SCOPRI</a></li>
        </ul>
      </div>
      <!-- /lista -->
 
      <!-- prima riga -->
-     <section class="prima riga">
-     <h4>Prova titolo</h4>
+     <section class="slot copertine">
+     <h4>Recently played</h4>
      <!-- contenitore immagini -->
-     <section class="square-img d-flex ">
-       <section class="quadrato debug"></section>
-       <section class="quadrato debug"></section>
-       <section class="quadrato debug"></section>
-       <section class="quadrato debug"></section>
-       <section class="quadrato debug"></section>
-       <section class="quadrato debug"></section>
+     <section class="song-img d-flex ">
+      <section class="img-container">
+         <img class="item" src="img/metal_lifting.jpg" alt=" graphic description">
+        <p>Heavy Metal</p>
+        <span>Subtitle</span>
+        </section>
+
+        <section class="img-container"> <img class="item" src="img/stranger.jpeg" alt=" graphic description">
+          <p>Stranger Things Vol.1 <br> (a Netflix Original <br> Series Soundtrack) </p>
+          <span>Kyle Dixon & Micheal Stein</span>
+        </section>  
+
+        <section class="img-container"> <img class="item" src="img/aquietplace.jpeg" alt=" graphic description">
+          <p>A quiet place</p>
+          <span>Subtitle</span>
+        </section> 
+
+        <section class="img-container"> <img class="item" src="img/split.jpeg" alt=" graphic description">
+          <p>Split</p>
+          <span>Subtitle</span>
+        </section>   
+
+        <section class="img-container"> <img class="item" src="img/cure.jpeg" alt=" graphic description">
+          <p>A cure for wellness</p>
+          <span>Subtitle</span>
+        </section>  
+
+        <section class="img-container"> <img class="item" src="img/sinister.jpeg" alt=" graphic description">
+        <p>Sinister</p>
+        <span>Subtitle</span>
+        </section>  
+
      </section>
      </section>
 <!-- seconda riga -->
-     <section class="seconda riga">
+     <section class="slot ">
        <h4>Creato per Jhon Doe</h4>
+       <span>Più ascolti, più accurati saranno i nostri suggerimenti</span>
        <!-- contenitore immagini -->
-     <section class="square-img d-flex">
-       <section class="quadrato debug"></section>
-       <section class="quadrato debug"></section>
+     <section class="mix-img d-flex">
+
+      <section class="img-container"><img class="item" src="img/radar.jpeg" alt=" graphic description">
+      <p>Realease Radar</p>
+      </section>
+
+      <section class="img-container"><img class="item" src="img/mixdaily.jpeg" alt=" graphic description">
+        <p>Daily Mix 1</p>
+        </section>
+
      </section>
      </section>
 <!-- terza riga -->
-     <section class="terza riga">
-       <h4>Artisti più ascoltati</h4>
+     <section class="slot artisti">
+       <h4>Artisti più popolari</h4>
+       <span>Più ascolti, migliori saranno i suggerimenti</span>
+
        <section class="radius-img d-flex">
-        <section class="quadrato debug"></section>
-        <section class="quadrato debug"></section>
+        <section class="img-container"><img src="img/youg.jpeg" alt="graphic description" class="item-radius"></section>
+
+        <section class="img-container"><img src="img/einaudi.jpeg" alt="graphic description" class="item-radius"></section>
+
       </section>
      </section>
 
@@ -101,7 +141,11 @@
     </div>
   </div>
 
-  <footer class="debug "></footer>
+  <footer class="debug d-flex">
+    <div class="f-sx debug"></div>
+    <div class="f-center debug"></div>
+    <div class="f-dx debug"></div>
+  </footer>
   
 </body>
 </html>
