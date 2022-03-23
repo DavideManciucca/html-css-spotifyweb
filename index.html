@@ -16,17 +16,17 @@
 <body>
   
   <div class="container d-flex">
-    <div class="col-sx debug ">
+    <div class="col-sx  ">
       <div class="logo"><img src="img/logo.svg" alt=""></div>
       <div class="sx-list">
         <ul>
           <li><a href="#"><i class="fa-solid fa-house"></i>Home</a></li>
-          <li><a href="#"><i class="fa-regular fa-magnifying-glass"></i> Cerca</a></li>
-          <li><a href="#">La tua libreria</a></li>
+          <li><a href="#"><i class="fa-brands fa-searchengin"></i>Cerca</a></li>
+          <li><a href="#"><i class="fa-solid fa-lines-leaning"></i>La tua libreria</a></li>
         </ul>
       </div>
       <h4 class="title-sx">PLAYLIST</h4>
-      <div> Crea la tua playlist</div>
+      <div class="playlist-button d-flex"><i class="fa-solid fa-square-plus"></i> Crea playlist</div>
       <div class="sx-list">
         <ul>
           <li><a href="#">Nome Playlist</a></li>
@@ -142,9 +142,38 @@
   </div>
 
   <footer class="debug d-flex">
-    <div class="f-sx debug"></div>
-    <div class="f-center debug"></div>
-    <div class="f-dx debug"></div>
+    <!-- fondo sinistro -->
+    <div class="f-sx debug d-flex">
+      <img class="f-img" src="img/sinister.jpeg" alt="graphic description">
+      <div class="f-title"><p>Sinister</p>
+        <span class="f-text">Brano nome</span>
+      </div>
+      <div><i class="fa-regular fa-heart"></i> <i class="fa-solid fa-folder-closed"></i></div>
+    </div>
+    <!-- /fondo sinistro -->
+    <div class="f-center debug">
+      <div class="button d-flex">
+        <div><i class="fa-solid fa-shuffle"></i></div>
+        <div><i class="fa-solid fa-arrow-left"></i></div>
+        <div><i class="fa-regular fa-circle-play"></i></div>
+        <div><i class="fa-solid fa-arrow-right"></i></div>
+        <div><i class="fa-solid fa-arrow-rotate-right"></i></div>
+      </div>
+      <div class="music-bar d-flex">
+        <span>0:25</span>
+        <div class="center-volume"></div>
+        <span>4:35</span>
+      </div>
+    </div>
+
+
+    <!-- fondo destro -->
+    <div class="f-dx debug d-flex">
+      <div><i class="fa-solid fa-list"></i></div>
+      <div><i class="fa-solid fa-tv"></i></div>
+      <div class="volume-dx"></div>
+
+    </div>
   </footer>
   
 </body>

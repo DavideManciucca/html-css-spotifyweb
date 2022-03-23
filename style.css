@@ -6,12 +6,29 @@
 .sx-list{
   margin-top: 8px;
 }
+.sx-list i{
+  margin-right: 2px;
+}
+
 .sx-list ul li {
   margin-top: 12px;
 }
+.fa-solid.fa-square-plus{
+  font-size: 35px;
+  
+}
 .title-sx{
   margin-top: 15px;
+  margin-bottom: 8px;
 }
+.playlist-button{
+  align-items: center;
+  color: gray;
+}
+.playlist-button i{
+  margin-right: 2px;
+}
+
 
 .toprow{
   position: fixed;
@@ -25,6 +42,7 @@
 }
 .second-list{
   text-align: center;
+  margin-top: 50px;
   
 }
 .second-list ul li{
@@ -39,7 +57,7 @@
 
 .col-sx{
   /* width: 20vw; */
-  width: 220px;
+  /* width: 220px; */
   padding: 10px;
   position: relative;
   font-size: 13px;
@@ -100,8 +118,76 @@
 footer{
   height: 10vh;
 }
+/* footer parte sinistra */
 .f-sx{
-  width: 234px;
+  width: 150px;
+  justify-content: space-around;
+  align-items: center;
+  
 }
+.f-img{
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+.f-title{
+  color: white;
+  font-size: 8px;
+  cursor: pointer;
+}
+.f-text{
+  color: gray;
+  cursor: pointer;
+}
+.f-sx i{
+  cursor: pointer;
+}
+/* footer parte sinistra */
+
+
+/* footer parte centrale */
+
+
+.button{
+  padding-top:8px;
+  padding-left: 210px;
+}
+.button i{
+  padding-left: 8px;
+  color: white;
+  font-size: 18px;
+}
+.music-bar{
+  justify-content: space-around; 
+  align-items: center;
+}
+.music-bar span{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.center-volume{
+  height: 5px;
+  width: 450px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+
+/* footer parte destra */
+.f-dx{
+  justify-content: space-around;
+  align-items: center;
+}
+.f-dx i{
+  margin-right: 10px;
+}
+.volume-dx{
+  width: 80px;
+  height: 5px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
 
 /* media */

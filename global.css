@@ -3,7 +3,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
+.col-sx{
+  background-color: black;
+}
+
+
 .profile{
   height: 10px;
   width: 10px;
@@ -11,7 +17,9 @@
 h4{
   color: white;
 }
-
+.second-list ul a:hover{
+  border-bottom: 1px solid greenyellow;
+}
 ul{
   list-style: none;
 }
@@ -21,6 +29,10 @@ a{
 }
 a:hover{
   color: white;
+}
+.playlist-button:hover{
+  color: white;
+  border-left: 1px solid greenyellow;
 }
 .sx-list a:hover{
   border-left: 1px solid greenyellow;
