@@ -17,17 +17,21 @@
   
   <div class="container d-flex">
     <div class="col-sx  ">
-      <div class="logo"><img src="img/logo.svg" alt=""></div>
+      <!-- <div class="logo"><img src="img/logo.svg" alt=""></div> -->
+      <div class="logo"></div>
+      
       <div class="sx-list">
         <ul>
-          <li><a href="#"><i class="fa-solid fa-house"></i>Home</a></li>
-          <li><a href="#"><i class="fa-brands fa-searchengin"></i>Cerca</a></li>
-          <li><a href="#"><i class="fa-solid fa-lines-leaning"></i>La tua libreria</a></li>
+          <li><a href="#"><i class="fa-solid fa-house"></i><span class="mobile-media"> Home</span>
+           </a></li>
+          <li><a href="#"><i class="fa-brands fa-searchengin"></i><span class="mobile-media">Cerca</span></a></li>
+          <li><a href="#"><i class="fa-solid fa-lines-leaning"></i><span class="mobile-media">La tua libreria</span></a></li>
         </ul>
       </div>
+      <span class="mobile-media">
       <h4 class="title-sx">PLAYLIST</h4>
       <div class="playlist-button d-flex"><i class="fa-solid fa-square-plus"></i> Crea playlist</div>
-      <div class="sx-list">
+      <div class="sx-list second">
         <ul>
           <li><a href="#">Nome Playlist</a></li>
           <li><a href="#">Nome Playlist</a></li>
@@ -40,18 +44,24 @@
       </div>
       <!-- fine seconda lista -->
       <div class="bottom-left">
-        <div class="bottom">Installa app</div>
+        <div class="bottom"><i class="fa-solid fa-download"></i>Installa app</div>
         <hr class="bottom" width="80%">
-        <div class="bottom"><img class="profile" src="img/profile.svg" alt=""> Jhon Doe</div>
+        <div class="bottom"><img class="profile" src="img/profile.svg" alt="graphic description">Jhon Doe </div>
+        
       </div>
+      <section class="btn-mobile">
+        <div><i class="fa-solid fa-download"></i></div>
+        <div><img class="profile" src="img/profile.svg" alt="graphic description"></div>
+      </section>
+    </span>
     </div>
 
 
 
     <!-- colonna destra -->
-    <div class="main debug ">
+    <div class="main  ">
      <section class="toprow d-flex">
-       bott prova
+       <section class="fix-btn">EFFETTUA L'UPGRADE</section>
      </section>
      <!-- lista -->
      <div class="second-list">
@@ -72,32 +82,41 @@
      <!-- contenitore immagini -->
      <section class="song-img d-flex ">
       <section class="img-container">
+
+         <!-- <div class="overlay"><div><i class="fa-regular fa-circle-play"></i></div> -->
+
          <img class="item" src="img/metal_lifting.jpg" alt=" graphic description">
+         <div class="overlay"><i class="fa-regular fa-circle-play"></i></div>
         <p>Heavy Metal</p>
         <span>Subtitle</span>
         </section>
 
-        <section class="img-container"> <img class="item" src="img/stranger.jpeg" alt=" graphic description">
+        <section class="img-container"><img class="item" src="img/stranger.jpeg" alt=" graphic description">
+          <div class="overlay"><i class="fa-regular fa-circle-play"></i></div>
           <p>Stranger Things Vol.1 <br> (a Netflix Original <br> Series Soundtrack) </p>
           <span>Kyle Dixon & Micheal Stein</span>
         </section>  
 
         <section class="img-container"> <img class="item" src="img/aquietplace.jpeg" alt=" graphic description">
+          <div class="overlay"><i class="fa-regular fa-circle-play"></i></div>
           <p>A quiet place</p>
           <span>Subtitle</span>
         </section> 
 
         <section class="img-container"> <img class="item" src="img/split.jpeg" alt=" graphic description">
+          <div class="overlay"><i class="fa-regular fa-circle-play"></i></div>
           <p>Split</p>
           <span>Subtitle</span>
         </section>   
 
         <section class="img-container"> <img class="item" src="img/cure.jpeg" alt=" graphic description">
+          <div class="overlay"><i class="fa-regular fa-circle-play"></i></div>
           <p>A cure for wellness</p>
           <span>Subtitle</span>
         </section>  
 
         <section class="img-container"> <img class="item" src="img/sinister.jpeg" alt=" graphic description">
+          <div class="overlay"><i class="fa-regular fa-circle-play"></i></div>
         <p>Sinister</p>
         <span>Subtitle</span>
         </section>  
@@ -112,11 +131,15 @@
      <section class="mix-img d-flex">
 
       <section class="img-container"><img class="item" src="img/radar.jpeg" alt=" graphic description">
+        <div class="overlay"><i class="fa-regular fa-circle-play"></i></div>
       <p>Realease Radar</p>
+      <span>Subtitle</span>
       </section>
 
       <section class="img-container"><img class="item" src="img/mixdaily.jpeg" alt=" graphic description">
+        <div class="overlay"><i class="fa-regular fa-circle-play"></i></div>
         <p>Daily Mix 1</p>
+        <span>Subtitle</span>
         </section>
 
      </section>
@@ -127,9 +150,15 @@
        <span>Più ascolti, migliori saranno i suggerimenti</span>
 
        <section class="radius-img d-flex">
-        <section class="img-container"><img src="img/youg.jpeg" alt="graphic description" class="item-radius"></section>
+        <section class="img-container"><img src="img/youg.jpeg" alt="graphic description" class="item-radius"><div class="overlay"><i class="fa-regular fa-circle-play"></i></div>
+          <p>Lana Del Ray</p>
+          <span>Subtitle</span>
+        </section>
 
-        <section class="img-container"><img src="img/einaudi.jpeg" alt="graphic description" class="item-radius"></section>
+        <section class="img-container"><img src="img/einaudi.jpeg" alt="graphic description" class="item-radius"><div class="overlay"><i class="fa-regular fa-circle-play"></i></div>
+          <p>Ludovico Einauldi</p>
+          <span>Subtitle</span>
+        </section>
 
       </section>
      </section>
@@ -141,9 +170,9 @@
     </div>
   </div>
 
-  <footer class="debug d-flex">
+  <footer class=" d-flex">
     <!-- fondo sinistro -->
-    <div class="f-sx debug d-flex">
+    <div class="f-sx  d-flex">
       <img class="f-img" src="img/sinister.jpeg" alt="graphic description">
       <div class="f-title"><p>Sinister</p>
         <span class="f-text">Brano nome</span>
@@ -151,7 +180,7 @@
       <div><i class="fa-regular fa-heart"></i> <i class="fa-solid fa-folder-closed"></i></div>
     </div>
     <!-- /fondo sinistro -->
-    <div class="f-center debug">
+    <div class="f-center ">
       <div class="button d-flex">
         <div><i class="fa-solid fa-shuffle"></i></div>
         <div><i class="fa-solid fa-backward-fast"></i></div>
@@ -168,9 +197,10 @@
 
 
     <!-- fondo destro -->
-    <div class="f-dx debug d-flex">
+    <div class="f-dx  d-flex">
       <div><i class="fa-solid fa-list"></i></div>
       <div><i class="fa-solid fa-tv"></i></div>
+      <div><i class="fa-solid fa-volume-high"></i></div>
       <div class="volume-dx"></div>
 
     </div>
